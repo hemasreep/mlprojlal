@@ -23,6 +23,8 @@ def get_requirements(filepath:str)->List[str]:
 setup(
 name='mlproject',
 version='0.0.1',
+
+
 author='Hemasree',
 author_email='hemasree.pediredla2015@gmail.com',
 packages=find_packages(),        # it willt check in how many packages __init__.py exists.and it will trate as package
